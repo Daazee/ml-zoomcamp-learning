@@ -85,7 +85,7 @@ def train_model(df):
     )
 
     pipeline.fit(train_dict, y_train)
-
+    logging.info("Model triniing is completed")
     return pipeline
 
 

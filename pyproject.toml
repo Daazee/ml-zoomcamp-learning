@@ -7,7 +7,9 @@ dependencies = [
     "fastapi==0.119.1",
     "ipykernel>=7.3.0",
     "numpy==2.3.3",
+    "pandas>=3.0.5",
     "scikit-learn==1.7.2",
+    "seaborn>=0.13.2",
     "uvicorn==0.38.0",
 ]
 

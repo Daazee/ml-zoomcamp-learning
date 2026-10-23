@@ -15,7 +15,7 @@ from sklearn.pipeline import make_pipeline
 from model import FEATURES, NUMERICAL_FEATURES, normalize_record
 
 
-DEFAULT_DATA = Path(__file__).resolve().parents[2] / "data" / "course_lead_scoring_2026.csv"
+DEFAULT_DATA = Path(__file__).resolve().parents[3] / "data" / "course_lead_scoring_2026.csv"
 DEFAULT_MODEL = Path(__file__).resolve().parent / "pipeline.bin"
 
 

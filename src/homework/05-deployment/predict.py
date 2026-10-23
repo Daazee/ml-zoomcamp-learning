@@ -9,7 +9,10 @@ from typing import Any
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from model import DEFAULTS_PATH, normalize_record
+if __package__:
+    from .model import DEFAULTS_PATH, normalize_record
+else:
+    from model import DEFAULTS_PATH, normalize_record
 
 
 MODEL_PATH = Path(os.getenv("MODEL_PATH", Path(__file__).with_name("pipeline.bin")))

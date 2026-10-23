@@ -13,3 +13,8 @@ dependencies = [
 
 [tool.uv]
 exclude-newer = "2026-09-14T23:59:59Z"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]

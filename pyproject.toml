@@ -5,6 +5,7 @@ description = "Reference deployment project for ML Zoomcamp 2026"
 requires-python = ">=3.11,<3.12"
 dependencies = [
     "fastapi==0.119.1",
+    "ipykernel>=7.3.0",
     "numpy==2.3.3",
     "scikit-learn==1.7.2",
     "uvicorn==0.38.0",
